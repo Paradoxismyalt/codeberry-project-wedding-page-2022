@@ -1,0 +1,431 @@
+/* ==== GENERAL STYLES ==== */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  /* ==== LAYOUT STYLES ==== */
+  
+  h1,h2,h3,ul,ol,p,img {
+    margin-bottom: 1.5rem;
+  }
+  
+  .locations, .program, .gifts, .qanda, .contact {
+    width: 95%;
+    margin: 1.5rem auto;
+    padding: .5rem 1rem;
+    text-align: center;
+  }
+  
+  
+  body {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: #444349;
+  }
+  
+  h1, h2 {
+    font-family: 'Great Vibes', cursive;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #bd806e;
+    font-weight: 600;
+  }
+  
+  a:hover {
+    color: #e5887f;
+    transition: color .4s ease-in-out;
+  }
+  
+  h1, .program, .qanda {
+    color: #d2ba87;
+  }
+  
+  img:hover {
+    transform: scale(1.03);
+    transition: all 0.7s ease-in-out;
+  }  
+  
+  
+  
+  /* === HEADER STYLES === */
+  .cover {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center;
+    background-size: cover;
+    display: table;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .cover-text-wrapper {
+    margin-top: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .cover-text {
+    margin: 0 auto;
+    padding: 1.25rem;
+    color: #fff9ff;
+    color: hsla(0,0%,100%,.9);
+    background: #000000;
+    background: hsla(100,0%,0%,.5);
+    height: 11rem;
+    text-align: center;
+  }
+  
+  .tagline {
+    text-transform: uppercase;
+    letter-spacing: .1668rem;
+    font-size: .8rem
+  }
+  
+  .tagline::after {
+    display: block;
+    content: "";
+    border-top: 1px solid #fff9ff;
+    width: 12.52rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .48rem
+  }
+  
+  h1 {
+    font-size: 3.15rem;
+    padding-top: .5rem
+  }
+  
+  .date {
+    font-size: 1.25rem;
+    letter-spacing: 2.4px;
+    position: relative;
+    top: -1.5rem;
+    vertical-align: middle;
+  }
+  
+  .date::before {
+    content: "";
+    clear: both;
+    display: inline-block;
+    background-color: #fff9ff;
+    height: 1px;
+    width: 1.5rem;
+    vertical-align: middle;
+    margin: 0 .5rem;
+    margin-top: -.1rem;
+  }
+  
+  .date::after {
+    content: "";
+    clear: both;
+    display: inline-block;
+    background-color: #fff9ff;
+    height: 1px;
+    width: 1.5rem;
+    vertical-align: middle;
+    margin: 0 .5rem;
+    margin-top: -.1rem;
+  }
+  
+  
+  /* === LOCATION STYLES === */
+  .location {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+  }
+  
+  .blurb div {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+  
+  .blurb h3 {
+    font-weight: 700;
+  }
+  
+  .blurb img {
+    height: 7.5rem;
+  }
+  
+  .blurb::after {
+    content: "";
+    clear: both;
+    display: inline-block;
+    background-color: #444349;
+    height: .19rem;
+    width: 7rem;
+    vertical-align: middle;
+    margin-top: 1rem;
+    margin-bottom: 1.8rem;
+  }
+  
+  
+  
+  /* === PROGRAM STYLES === */
+  
+  .program {
+    background: #616161;
+    background: hsla(100,0%,0%,.6);
+    width: 100%;
+  }
+  
+  .program-wrapper {
+    text-align: left;
+    font-family: 'Mulish', sans-serif;
+  }
+  
+  .program p {
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .program h2 {
+    margin-top: 1.25rem;
+  }
+  
+  .program ul {
+    letter-spacing: .06rem;
+    font-weight: 700;
+  }
+  
+  
+  
+  /* === GIFTS STYLES === */
+  
+  .gifts img {
+    height: 7rem;
+  }
+  
+  .gifts p:last-child {   /* To even out the bottom and top margins of this section. */
+    margin-bottom: 0;
+  }
+  
+  .gifts p {
+    font-weight: 700;
+  }
+  
+  
+  
+  /* === QANDA STYLES === */
+  
+  .qanda {
+    background: #616161;
+    background: hsla(100,0%,0%,.6);
+    width: 100%;
+    display: table;
+    text-align: center;
+  }
+  
+  .qanda h2 {
+    margin-top: 1.25rem;
+  }
+  
+  .qanda p {
+    font-family: 'Mulish', sans-serif;
+    text-align: left;
+  
+  }
+  
+  .question {
+    font-weight: 700;
+    margin-bottom: .5rem;
+  }
+  
+  .answer {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .question-group::after {
+    content: "";
+    display: block;
+    height: .19rem;
+    width: 12rem;
+    margin: 1.5rem auto;
+    background-color: #d2ba87;
+  }
+  
+  
+  
+  /* === FOOTER STYLES === */
+  
+  footer {
+    background: #606060;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: .9rem;
+    display: table;
+    letter-spacing: .02rem;
+  }
+  
+  .footer-wrapper {
+    vertical-align: middle;
+    display: table-cell;
+    padding: .5rem 1rem;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
+  footer small {
+    line-height: 1.5;
+  }
+  
+  .fa {
+    color: white;
+    font-size: .6rem;
+  }
+  
+  
+  
+  
+  /* === MEDIA QUERIES === */
+  
+  
+  /* HEADER */
+  
+  @media (min-width: 768px) {
+  
+    .cover {
+      background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center;
+      background-size: cover;
+    }
+  
+    .cover-text-wrapper {
+      width: 49.38rem;
+      margin-top: 14.778rem;
+    }
+  
+    .cover-text {
+      height: 17.8rem;
+    }
+  
+    .tagline {
+      font-size: 1.227rem;
+      padding-top: .05rem;
+    }
+    
+    h1 {
+      font-size: 7rem;
+    }
+  }
+  
+  
+  /* LOCATION */
+  
+  @media (min-width: 768px) {
+  
+    .blurb {
+      display: inline-block;
+      padding: 2.2rem;
+      padding-right: 7.6rem;
+      padding-left: 7.6rem;
+    }
+    
+    .blurb div {
+    font-weight: 400;
+    }
+    
+    .blurb::after {
+      display: none;
+    }
+  }
+  
+  
+  /* PROGRAM */
+  
+  @media (min-width: 768px) {
+  
+    .program-wrapper {
+      text-align: left;
+      display: table;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+  }
+  
+  @media (min-width: 768px) {
+  
+    .program ul {
+      font-weight: 400;
+    }
+  
+    .program p {
+      font-weight: 400;
+      font-size: 1.15rem;
+    }
+  
+  }
+  
+  
+  /* GIFTS */
+  
+  @media (min-width: 768px) {
+  
+    .gifts p {
+      font-weight: normal;
+    }
+  
+  }
+  
+  
+  /* QANDA */
+  
+  @media (min-width: 768px) {
+  
+     .question-group {
+      display: inline-block;
+      width: 30%;
+      vertical-align: top;
+      padding: 1.5rem;
+      margin: .7rem;
+    }
+  
+     .question-group::after {
+      display: none;
+    }
+  
+    .qanda h3 {
+      text-align: left;
+    }
+    
+    .answer{
+      font-weight: normal;
+    }
+  }
+  
+  
+  /* CONTACT */
+  
+  @media (min-width: 768px) {
+  
+    a {
+      font-weight: normal;
+    }
+  }
+  
